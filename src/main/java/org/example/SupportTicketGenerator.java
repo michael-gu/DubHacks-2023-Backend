@@ -41,7 +41,7 @@ public class SupportTicketGenerator {
                 "Take this text and give me a numbered list with three things: \n" +
                 "1. Name from the text, or ONLY THE TEXT “N/A” if no name is detected \n" +
                 "2. An 80 word or less summary of the assistance the text is needing \n" +
-                "3. Up to five identifying tags in a list separated by commas that may be relevant to the support agent receiving this output (do not use any tags mentioning customer support)";
+                "3. Up to five identifying tags in a list separated by commas that may be relevant to the support agent receiving this output (do not use any tags mentioning customer support or location)";
 
         JSONObject requestBody = new JSONObject();
         requestBody.put("prompt", prompt);

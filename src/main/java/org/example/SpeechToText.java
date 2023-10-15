@@ -4,6 +4,7 @@ import com.google.auth.oauth2.GoogleCredentials;
 import com.google.cloud.speech.v1p1beta1.*;
 import com.google.protobuf.ByteString;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -11,10 +12,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-
 public class SpeechToText {
-
-
     public String convertSpeechtoText(String audioFilePath) throws IOException {
         // Set your Google Cloud project ID
         String projectId = "dubhacks-backend";
