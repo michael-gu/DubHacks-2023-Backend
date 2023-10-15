@@ -1,18 +1,38 @@
 package org.example;
 
+import com.google.cloud.firestore.DocumentReference;
+import com.google.firebase.cloud.FirestoreClient;
 import okhttp3.*;
 import org.json.simple.*;
+import com.google.auth.oauth2.GoogleCredentials;
+import com.google.cloud.firestore.Firestore;
 
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ExecutionException;
 
 
 public class SupportTicketGenerator {
     OkHttpClient client;
-    FirebaseFirestore db;
+    Firestore db;
     private static final String API_KEY = "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";
     private static final String OPENAI_API_URL = "https://api.openai.com/v1/engines/gpt-3.5-turbo-instruct/completions";
-    public SupportTicketGenerator() {
+    public SupportTicketGenerator() throws IOException {
+        String keyPath = "src/main/java/org/example/dubhacks-backend-20c6e7fa6aca.json";
         this.client = new OkHttpClient();
-        this.db = FirebaseFirestore.getInstance();
+        GoogleCredentials credentials = GoogleCredentials.fromStream(new FileInputStream(keyPath));
+        FirebaseOptions options = FirebaseOptions.builder()
+                .setCredentials(credentials)
+                .setProjectId("dubhacks23-16f81")
+                .build();
+        FirebaseApp.initializeApp(options);
+
+        this.db = FirestoreClient.getFirestore();
     }
 
     public String generateTicket(String inputText) throws Exception {
@@ -51,7 +71,9 @@ public class SupportTicketGenerator {
         return "failed";
     }
 
-    public void uploadTicket() {
-
+    public void uploadTicket(String text) throws ExecutionException, InterruptedException {
+        Map<String, String> newData = new HashMap<>();
+        newData.put("msg", text);
+        DocumentReference newDocumentRef = db.collection("support-tickets").add(newData).get();
     }
 }

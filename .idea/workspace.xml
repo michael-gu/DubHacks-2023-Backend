@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be0e291d-8493-4ca3-97db-f8d1ea415b0a" name="Changes" comment="first commit, partially functioning speech to text, functionining ai ticket generator">
+    <list default="true" id="be0e291d-8493-4ca3-97db-f8d1ea415b0a" name="Changes" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpeechToText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SpeechToText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SupportTicketGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SupportTicketGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1697313963692</updated>
       <workItem from="1697313965350" duration="6498000" />
-      <workItem from="1697324328892" duration="5855000" />
+      <workItem from="1697324328892" duration="5875000" />
+      <workItem from="1697335583516" duration="2176000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, partially functioning speech to text, functionining ai ticket generator">
       <created>1697324164212</created>
@@ -82,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697324164212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1697335546012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697335546012</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit, partially functioning speech to text, functionining ai ticket generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit, partially functioning speech to text, functionining ai ticket generator" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>

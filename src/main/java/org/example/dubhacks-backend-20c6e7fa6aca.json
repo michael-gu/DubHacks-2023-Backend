@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "dubhacks-backend",
+  "private_key_id": "20c6e7fa6aca1036a71ecf53417f8535b317c466",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDuRVEdEw1higCJ\n2OBseciUGTuJEZ9TXMdgNNVAakFS+kSxTMTWE8JTQOZET6FJ4NhhAQ9KtRNHKVNp\nFQxgIicCTQbvR7UxfO4BDPlk92W3kM/IJsyssgFzOCFsosySBr7Svcb5kR3Ybbig\nWBrY9HuarW95yvhcvt2gzy/SeWdx/kiWLDrXbP3SAwlXGkTNsSdIsN1dH+dxyUA8\np153jnBy83YvbfnaMwT9ue0FAzQ8p/KkMxbqAdzvOURl7fZiDlTuK/mBghDVREZT\n7YuPT6mZ299bKLrUAsPzq+wp6LV8m2EiB+bNcNQF0xIuAHnTXA86Rrz7nDFeJL+f\na3oOds+RAgMBAAECggEAFSbCnVfeYXkAdLwzqfWCpID7675MfDg5e7Uc9Ceqjlzo\noaucsptU7hKODmTaPsZutufC7YEXCcNlo+eqLlOBzn67fZzKPS8nqqC19+xNU4cP\npuco1rDDl7CVKQFnsxPVtzwBEJD9CwQsdlFz6qwDV/cK9Q8bTpJj9r1Fs8Oytuft\nuhKvfq14DqRjzpJ4jZzMrsC8Ym4z5OgRSoz7UeOQXPut8ugJhi+heAW2wi82txzS\nsVdE1HjK9Ge17PBzizeR6bJsZ+w1WDlqiUSjRPhFm9ZI1+Odd6Lt0TgcsmgGNoVl\nzpBZDTOGdfLM2PWJaoor7Ed+5ZuanrwFxjo1NRqC8QKBgQD8dduUvuIdqnjfB7bo\nsV6LwG9Z8rbeqj2+GbBBrR7DjBSsA5nyuIkRj2dfhyOUxta7lCSncUvArGn4emGE\nWsiWn0gDsxPmFJAfhIdW+s0diFy8ZeA0bLBb5TxTAtG7xg0HkXGNieI/RO1lZE7Z\nElYIACojv1f7Ay4ybjhxoVhIaQKBgQDxnIdzr2X1IMxs6SUzHjA0vQInUgz3Fdm3\nJ8K4pSBnRo2x2Dj/FIAFHQ/5cnpXwOg58t93Joela+P5fAF5DO7PKSHCG/snF6op\nkwITBdxMogIPcjA7A9L2y+UlSpGTBLvmm6LlQhRYB7hOOXTMhdt3vAjxgFyJPhoH\nXgR4Jdio6QKBgBSPIH+ff9h8nnVDMpEGiLWGyUqg6mV9paOKggEHMR8plDFh5bKP\ndpIYhImR/sLJ4ojKCqYcItgg8kxK4xAdOIKTnBC5D6DIAeifKUpbCEMkbLDm9vgt\n9bq2E1CLRTsuaLc6D+4/0U3nthFwtr8UsC7cnJHmriqB2sw+j5gpVIApAoGBAONh\niYRRBKYuCNVSkWTLO1jWrCkvKe57TNr2+2VkWdt35bACqpk8xMKLOFZs60Cc1rB6\npt3uj+gZYoKPtp8ikbi6n/+a78E5nzXjGSen80zXhxLcRxGzJp6HAw8WX2w6H1AH\nFsWla5nxIf3UStyT+Rh1CQGm6O9sV3ipfZFJJN7JAoGAcaEgrloY8rCZfxDmvDtn\nFk+8w9l6GShzzffknk7jFdMsFD6QrA9Tjvb0UJRjVvvdkoh7gVCrxN9gDE5M0afO\nsAsvNkE/FOP2ZdYlcvLZ0PEw1L0kH67qTAkweBiqgH3rb2yjrGHGNp9vS1lYyBVN\nwwKIAvZVznQfgqs14QnOE/k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "test-656@dubhacks-backend.iam.gserviceaccount.com",
+  "client_id": "111165097015148999354",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-656%40dubhacks-backend.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
