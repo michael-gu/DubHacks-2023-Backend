@@ -71,9 +71,9 @@ public class SupportTicketGenerator {
         return "failed";
     }
 
-    public void uploadTicket(String text) throws ExecutionException, InterruptedException {
+    /*public void uploadTicket(String text) throws ExecutionException, InterruptedException {
         Map<String, String> newData = new HashMap<>();
         newData.put("msg", text);
         DocumentReference newDocumentRef = db.collection("support-tickets").add(newData).get();
-    }
+    }*/
 }

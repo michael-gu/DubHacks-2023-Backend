@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be0e291d-8493-4ca3-97db-f8d1ea415b0a" name="Changes" comment="second commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="be0e291d-8493-4ca3-97db-f8d1ea415b0a" name="Changes" comment="changes">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SupportTicketGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SupportTicketGenerator.java" afterDir="false" />
     </list>
@@ -72,7 +71,7 @@
       <updated>1697313963692</updated>
       <workItem from="1697313965350" duration="6498000" />
       <workItem from="1697324328892" duration="5875000" />
-      <workItem from="1697335583516" duration="2176000" />
+      <workItem from="1697335583516" duration="2672000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, partially functioning speech to text, functionining ai ticket generator">
       <created>1697324164212</created>
@@ -88,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697335546012</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes">
+      <created>1697346105275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697346105275</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit, partially functioning speech to text, functionining ai ticket generator" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>
