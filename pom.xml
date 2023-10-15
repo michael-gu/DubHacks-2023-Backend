@@ -36,6 +36,19 @@
             <artifactId>google-cloud-speech</artifactId>
             <version>2.0.2</version> <!-- Use the latest version -->
         </dependency>
+        <!-- Firebase Admin SDK -->
+        <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>9.0.0</version>
+        </dependency>
+
+        <!-- Google Cloud Firestore -->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-firestore</artifactId>
+            <version>3.3.0</version>
+        </dependency>
     </dependencies>
 
 </project>

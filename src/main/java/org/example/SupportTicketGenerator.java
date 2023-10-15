@@ -7,10 +7,12 @@ import org.json.simple.*;
 
 public class SupportTicketGenerator {
     OkHttpClient client;
-    private static final String API_KEY = "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";
+    FirebaseFirestore db;
+    private static final String API_KEY = "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";
     private static final String OPENAI_API_URL = "https://api.openai.com/v1/engines/gpt-3.5-turbo-instruct/completions";
     public SupportTicketGenerator() {
         this.client = new OkHttpClient();
+        this.db = FirebaseFirestore.getInstance();
     }
 
     public String generateTicket(String inputText) throws Exception {
@@ -47,5 +49,9 @@ public class SupportTicketGenerator {
         }
 
         return "failed";
+    }
+
+    public void uploadTicket() {
+
     }
 }
